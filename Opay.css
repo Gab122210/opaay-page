@@ -1,0 +1,329 @@
+    .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #f4f4f4 ;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+    display: none;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color:  #f4f4f4;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #f4f4f4;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 36px;
+  }
+ 
+
+  .topnav a:hover {
+    background-color: #f4f4f4;
+    color: black;
+  }
+  
+  .active {
+    background-color: #f4f4f4;
+    color: white;
+  }
+
+    .abcontact:hover {
+        color: #1DcF9F !important;
+    }
+
+
+    .abcontact {
+        text-indent: -20px;
+        background-color: white !important;
+    }
+
+   .abcontact1:hover {
+        color:#4AD1B1 !important;
+        background-color:#E4F8F5 !important;
+   }
+
+   .abcontact1 {
+        font-size: 16px;
+        line-height: 0.8;
+   }
+   
+   .image {
+        border:5px solid red;
+        width: 100%; 
+        height: 545px;
+   }
+        
+   .image {     
+        background-image: url('../New folder/home01.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover;
+   }
+
+   .banking {
+        border: 1px solid green; 
+        height: 77px;  
+        font-family: Tahoma; 
+        margin-top: 55px;
+   }
+
+
+   .boxinside:hover {
+        background-color: #1DcF9F !important;
+        
+   }
+  
+
+   
+    .opted1:hover {
+     color:#ffff !important;
+   }
+
+    .headset:hover {
+      color:white !important;
+    }
+
+
+    .service {
+      font-size: 42.346px;
+      font-weight: 600;
+      line-height: .9622px;
+      text-align: left;
+     /*padding: 0px 0px 35.516px 77.7254px;*/
+      font-family: Roboto, sans-serif;
+      color: #210f60;
+      padding: 0%;
+    }
+
+
+
+    .fun {
+      font-size: 37.9748px;
+      font-family: Roboto, sans-serif;
+      color:black;
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: 1.366px;
+      
+    }
+
+    .wallet {
+      font-size: 21.3096px;
+      font-family: Robot, sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      letter-spacing: 1.0928px;
+    }
+
+    .opaycard {
+      font-family: Roboto, sans-serif;
+      font-weight: 700px;
+      color: #1Dc99b;
+      text-align: left;
+      font-size:37.9748px;
+      line-height: 46.444px;
+      padding: 0px 0px 0px 58.738px;
+    }
+
+    .getcard {
+      font-size: 19.3096px;
+      letter-spacing: 1.0928px;
+      text-align: left;
+      color: #523c9f;
+      line-height: 33.1938px;
+      padding: 0px 0px 0px 58.738px;
+      font-weight:400;
+      font-family:Roboto, sans-serif;
+    }
+
+      .Owealth {
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 37.9748px;
+        font-stretch: 100%;
+        color: #ffffff;
+      }
+
+      .interest {
+        font-family: Roboto, sans-serif;
+        font-size: 21.3096px;
+        font-weight: 400;
+        text-align: left;
+        line-height:  33.1938px;
+        letter-spacing: 1.0928px;
+        color: #ffffff;
+      }
+
+        .downloadopay {
+          font-size: 28.4128px;
+          font-family: sans-serif;
+          font-weight: 400;
+          color:#34495E;
+        }
+
+
+        .customerthink {
+          font-size: 42.7448px;
+          font-family: Roboto, sans-serif;
+          font-weight: 600;
+          color:#210f60;
+          font-stretch: 100%;
+        }
+
+
+        .opaybk {
+          font-size: 14.2064px;
+          font-weight:400 ;
+          font-family: 'Roboto', sans-serif;
+          color:#697988;
+          font-stretch: 100%;
+          text-align: left;
+        }
+
+
+
+
+        .opaycus2 {
+          font-size:8.196px ;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400 ;
+          color: #210f60;
+          font-stretch: 100%;
+          text-align: left;
+        }
+
+
+        .security {
+          font-size: 42.255px;
+          font-family: 'Roboto' sans-serif;
+          font-weight: 700;
+          color: #210f60;
+        }
+
+        .detection {
+          font-size: 28.08px ;
+          font-family:'Roboto' sans-serif;
+          font-weight: 500;
+          color: #ffffff;
+        }
+
+        .safe {
+          font-size: 14.05px;
+          font-family: 'Roboto' sans-serif;
+          font-weight: 400;
+          color: #ffffff;
+        }
+
+        .security12 {
+          font-weight: 600;
+          font-size: 42.255px;
+          font-family: 'Roboto', sans-serif;
+          color: #210f60;
+          line-height: 70.355px;
+        }
+
+        .provide {
+          font-size:18.765px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          color:#210f60;
+          line-height: 31.59px;
+          text-align: left;
+        }
+
+        .numbers {
+          font-size: 14.04px;
+          font-family: sans-serif;
+          font-weight: 400;
+          color: #210f60;
+        }
+
+
+
+
+
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+    
+        .swiper {
+          width: 100%;
+          height: 300px;
+          margin: 20px auto;
+        }
+    
+        .append-buttons {
+          text-align: center;
+          margin-top: 20px;
+        }
+    
+        .append-buttons button {
+          display: inline-block;
+          cursor: pointer;
+          border: 1px solid #007aff;
+          color: #007aff;
+          text-decoration: none;
+          padding: 4px 10px;
+          border-radius: 4px;
+          margin: 0 10px;
+          font-size: 13px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:620px){                          
+    /* for mobile phone: */
+    .mobile-container{
+            display: block ;
+}
+   .fordesktop  { 
+            display: none !important;
+}  
+    }

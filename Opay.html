@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=width-device, initial-scale=1.0">
+        <link rel="stylesheet" href="Opay.css">
+        <link rel="icon" type="image/x-con" href="../New folder/Opay_Digital_Services_Limited.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/c1d57068dd.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        
+       
+ 
+        
+        <style>
+            .header {
+                border:0px solid black;
+                height:72px;
+                
+            }
+
+            .logo12 {
+                border:1px solid black;
+                height:70px;
+                /*padding-left: 0%;*/
+            }
+
+            .firs {
+                border: 1px solid black !important;
+                height:68px;
+                background-color: none;
+                padding:5px ;
+            }
+            
+            .Opaylogo {
+                width: 120px;
+                position: relative;
+                bottom:3px;
+                left:2px;
+                right:0px;
+            }
+
+            .navbar-inverse {
+                width:400px;
+                margin-left: 260px;
+                margin-top: 1px;
+                padding:10px;
+                background-color: rgba(0,0,0,0);
+                color:black;
+            }
+
+           a, .menus:hover {
+                color:black !important;
+                font-family:sans-serif !important;
+                
+            }
+
+
+            .personal, .personal:hover {
+                color: #1DcF9F !important;
+                font-weight: bold;
+            }
+
+
+            .btn-primary:hover {
+                    color: black;
+                    background-color: white;
+                    border-color: none;
+             }
+
+             .btn-primary {
+                    background-color:white;
+                    color:black; 
+                    border:none;
+                    margin-top: 9px;
+            }
+             
+            .btn-primary:hover {
+                    background-color:white; 
+                    color:black;
+            }
+
+                
+            .btn-primary:focus {
+                   background-color: white !important;
+                   outline:none !important;
+                   color:black !important;
+                   box-shadow: none !important;
+            }
+
+
+            .bod {
+                 box-shadow: none !important;
+                 -webkit-box-shadow: 0;
+             }
+            
+           
+             .company, .company:active { 
+                    background-color: #f4f4f4 !important;
+                
+             }
+
+             .company:focus {
+                   background-color: #f4f4f4 !important;
+             }
+            
+            
+            /* .swiper {
+  width: 80%; border: 1px solid red;
+  height: 300px;
+}*/
+
+/*.swiper {
+      width: 100%;
+      height: 100%;
+    }*/
+
+   /* html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+   /* body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }*/
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 500px;
+      margin: 5;
+    }
+
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons button {
+      display: inline-block;
+      cursor: pointer;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
+
+
+        </style>
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="container fordesktop" style="border:8px solid red; height: 72px; padding: 0%;">
+                <div class="row">
+                    
+                    <div class="col-md-2 logo12">
+                                <img class="Opaylogo" src="../New folder/edited Opay_Digital_Services_Limited.png">
+                    </div>
+                    
+                    <div class="col-md-10" style="border:7px solid blue;   height:70px;"> 
+                            <nav class="navbar navbar-inverse navbar-fixed-top">
+                                <div class="container">
+                                    <ul class="nav navbar-nav">
+                                        <!--<li class="active"><a href="#">Home</a></li>-->
+                                        <li><a  href="#" class="menus personal"> Personal</a></li>
+                                        <li><a  href="#" class="menus">Business</a></li>
+                                        <li>
+
+                                            <div class="dropdown menu">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Company
+                                                <span class="fa fa-angle-down"></span></button>
+                                                <ul class="dropdown-menu bod" style="width:; height: 100px; ">
+                                                <li><a class="abcontact1" href="#">About Us</a></li>
+                                                <li><a class="abcontact1" href="#" style="margin-top: 30px;">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+
+                                        </li>
+                                    
+                                        <li><a  href="#" class="menus">CSR</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                    </div>   
+                </div>
+            </div> 
+                
+            
+            <!-- Simulate a smartphone / tablet -->
+            <div class="mobile-container">
+
+                <!-- Top Navigation Menu -->
+                    <div class="topnav">
+                            <a href="#home" class="active"><img class="Opaylogo" src="../New folder/edited Opay_Digital_Services_Limited.png"></a>
+                            <div id="myLinks">
+                               
+                                <ul class="nav navbar-nav" style="margin-left: 5px; margin-top: 50px;">
+                                    <!--<li class="active"><a href="#">Home</a></li>-->
+                                    <li><a  href="#" class="menus personal minus" style="font-size: 33.35px; line-height: 1.8"> Personal</a></li>
+                                    <li><a  href="#" class="menus minus" style="font-size: 33.35px;">Business</a></li>
+                                    <li>
+
+                                        <div class="dropdown menu">
+                                            <button class="btn btn-primary dropdown-toggle company" type="button" data-toggle="dropdown" style="font-size: 33.35px; line-height: 1.8;">Company
+                                            <span class="fa fa-angle-down" style="font-size: 15px; height: 15px;"></span></button>
+                                            <ul class="dropdown-menu formob" style="background-color: white; border: 1px soild black; width: 50px; height: 90px; margin-left: 15px;">
+                                            <li><a class="abcontact" href="#">About Us</a></li>
+                                            <li><a class="abcontact" href="#" style="margin-top: 15px;">Contact Us</a></li>
+                                            
+                                            </ul>
+                                        </div>
+
+                                    </li>
+                                
+                                    <li><a  href="#" class="menus minus" style="font-size: 33.35px; line-height: 1.8;">CSR</a></li>
+                                </ul>
+
+                            
+                            </div>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                    </div>
+            </div>
+        </header>
+        
+ <section>
+            <div class="container-fluid">
+                <div class="image">
+                    <div class="col-md-7" style="border:1px solid black; height:537px;">
+                        <div class="col-md-11" style="border:1px solid black; margin-left: 60px; height:535px;">
+                            <div class="col-md-12 banking" style="padding-left: 0%;">
+                               
+                                    <h1 class="Beyondbanking1" style="font-size: 51.9722px; line-height: 0.8; word-spacing: 1px; color: #ffffff; font-weight: 700;"><b>We are Beyond Banking</b></h1>
+                                
+                            </div> 
+                            
+                            
+                                <div class="col-md-12 breif0pay" style="border: 1px solid black; height: 250px; padding-top: 30px; padding-left: 0%;">
+                                    <p class="brief0pay" style="line-height: 30.9644px;  word-spacing: 1.5px; font-size: 13.px; font-weight: 400; color:#7f73a8; font-family: roboto, sans-serif;">
+                                     With mission to make financial services more inclusive through technology, OPay is dedicated to 
+                                    <br>providing secure, easy to use & affordable financial services with super fast user experience, 
+                                    <br>amazing incentive package on transfer/airtime & data top-up, innovative product to use as 
+                                    <br>balance with amazing daily interest, reliable debit card with no charge and best resolution 
+                                    <br>experience etc. With OPay account, you can have full control of your finances, payments & 
+                                    <br>transactions with ease, all on one platform! Yes, OPay is your one-stop payment services 
+                                    <br>platform and more.</p>
+                                </div>
+                                
+                                <!--<div class="col-md-12" style="border: 1px solid black; height: 150px; margin-left: 10px;">-->
+                                   
+                                    <div class="col-md-12 imgframe" style="border:1px solid black; padding-left: 0%; height: 70px;"><img src="../New folder/frame.png" style="margin-top: 35px;"></div>
+                                    
+                                     <!--<div class="row" style="border: 5px solid red; height: 70px;">-->
+                                            <div class="col-md-2 forgoogle34" style="border: 1px solid black; height: 40px; padding: 1%; padding-left: 0%; margin-top: 40px;">
+                                                <a href="#"><img class="imggoogle34" src="../New folder/google34.png" style="width: 90px; height: 30px; border-radius: 10px;"></a>
+                                            </div>
+                                            
+                                            
+                                            <div class="col-md-2 fordownload28" style="border:1px solid black; height:40px; padding:1%;  margin-top: 40px;">
+                                                <a href="#"><img class="imgdownload28" src="../New folder/download28.png" style="width: 90px; border-radius: 10px;"></a>
+                                            </div>
+                                     </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+             </div><br><br>
+
+
+
+       
+
+
+
+            <!-- Slider main container -->
+<!--<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+     <!--<div class="swiper-slide" style="border: 1px solid black; background-color: green;">Slide 1</div>
+      <div class="swiper-slide"  style="border: 1px solid black; background-color: red;">Slide 2</div>
+      <div class="swiper-slide"  style="border: 1px solid black; background-color: black;">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <!--<div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <!--<div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+   <!--<div class="swiper-scrollbar"></div>
+  </div>-->
+
+
+<div #swiperRef="" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><div class="col-md-2 phone1" style="border: 1px; width:213px; height:415px; position: relative; padding:0%;">
+        <div class="col-md-1 phonenet" style="border: 2px; width: 160px; height: 250px; background-color: none; position: absolute; z-index: 2; left:57px;  padding: 0%;">
+            <img src="../New folder/slide-img-1.png" style="width: 140px; height:240px; margin-left: 17px; border-radius: 11%; margin-top: 3px;">
+        </div> 
+        
+        <div class="col-md-2 boxinside" style="border: 0px solid black; width:213px; height:209px; border-radius: 15px; z-index:1; background-color:#f4fcfa; bottom:0px; position: absolute;"><br>
+
+             <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><img src="../New folder/user.png" style="width: 30px;"></div><br><br><br>
+             <div class="col-md-12" style="border: ; height: 29px; padding-left: 0%;"><h5 class="opted1" style="text-indent: -30px; font-size: 12.977px; color:#210f60;"><b>Easy account Opening</b></h5></div><br>
+             <div class="col-md-12" style="border: ; height: 31px; padding: 0%;"><p class="opted1" style="font-size: 8.879px; text-align: left; word-wrap: wrap; font-family: roboto; color: #1DcF9F">Instant account opening with amazing <br>welcome bonuses</p></div>
+        </div>
+    </div>
+
+    
+    <div class="col-md-2 phone1" style="border: 1px; width:213px; height:415px; position: relative; padding:0%;">
+        <div class="col-md-1 phonenet" style="border: 2px; width: 160px; height: 247px; background-color: none; position: absolute; z-index: 2; left:57px; padding-left: 0%;">
+            <img src="../New folder/slide-img-2.png" style="width: 140px; height:240px; margin-left: 17px; border-radius: 11%; margin-top: 3px;">
+        </div> 
+        
+        <div class="col-md-2 boxinside" style="border:black; width:213px; height:209px; border-radius: 15px; z-index:1; background-color:#f4fcfa; bottom:0px; position: absolute;"><br>
+
+             <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><img src="../New folder/arrows (1).png" style="width: 30px;"></div><br><br><br>
+             <div class="col-md-12" style="border:0px solid black; height: 31px; padding-left: 0%;"><h5 class="opted1" style="text-indent: -60px; font-size: 12.977px; color:#210f60;"><b>Instance Transfer</b></h5></div><br>
+             <div class="col-md-12" style="border:0px solid black; width: 186px; height: 31px; padding: 0%;"><p class="opted1" style="font-size: 8.879px; text-align: left; word-wrap: wrap; font-family: roboto, sans-serif; color: #1DcF9F;">Instant transfer with 100% successful rate to<br> all banks in Nigeria anytime</p></div>
+        </div>
+    </div>  
+</div>
+      
+    
+    <div class="swiper-slide"> <div class="col-md-2 phone1" style="border: 1px; width:213px; height:415px; position: relative; padding:0%;">
+            <div class="col-md-1 phonenet" style="border: 2px; width: 160px; height: 250px; background-color: none; position: absolute; z-index: 2; left:57px; padding: 0%;">
+                <img src="../New folder/slide-img-6.png" style="width: 140px; height:240px; margin-left: 17px; border-radius: 11%; margin-top: 3px;">
+            </div> 
+        
+            <div class="col-md-2 boxinside" style="border: black; width:213px; height:209px; border-radius: 15px; z-index:1; background-color:#f4fcfa; bottom:0px; position: absolute;"><br>
+              <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><img src="../New folder/star.png" style="width: 35px;"></div><br><br><br>
+              <div class="col-md-12" style="border:0px solid black; width: 186px; height: 28px;  margin-top: 11px; padding-left: 0%;"><h5 class="opted1" style="text-indent: px; text-align: left; margin: -0px; font-size: 11.977px; line-height: 1.1; color:#210f60;"><b>Airtime/Data Top-up with<br>Cashback<b></h5></div><br>
+              <div class="col-md-12" style="border:0px solid black; width: 186px; height: 31px; padding: 0%;"><p class="opted1" style="font-size: 8.879px; text-align: left; font-family: roboto, sans-serif; color: #1DcF9F;">Up to 6% instant cashback on airtime/data top-up everytime</p></div>
+            </div>
+        </div>
+
+        <div class="col-md-2 phone1" style="border: 1px; width:213px; height:415px; position: relative; padding:0%;">
+            <div class="col-md-1 phonenet" style="border: 2px; width: 160px; height: 250px; background-color: none; position: absolute; z-index: 2; left:57px; padding: 0%;">
+                <img src="../New folder/slide-img-4.png" style="width: 140px; height:240px; margin-left: 17px; border-radius: 11%; margin-top: 3px;">
+            </div> 
+            
+            <div class="col-md-2 boxinside" style="border:black; width:213px; height:209px; border-radius: 15px; z-index:1; background-color:#f4fcfa; bottom:0px; position: absolute;"><br>
+              <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><img src="../New folder/add-card.png" style="width: 33px;"></div><br><br><br>
+              <div class="col-md-12" style="border:0px solid black; width: 186px; height: 40px;  margin-top: px; padding-left: 0%;"><h5 class="opted1" style=" text-align: left; font-size: 12.977px; color:#210f60; "><b>Instant and Free Debit Card<b></h5></div><br>
+              <div class="col-md-12" style="border:0px solid black; width: 186px; height: 62px; padding: 0%;"><p class="opted1" style="font-size: 8.879px; text-align: left; font-family: roboto, sans-serif; color: #1DcF9F;">Apply and get a card instantly at select Opay agents or apply via the Opay app.Enjoy 10 free ATM withdrawals monthly and zero maintenance fee</p></div>
+            </div>
+        </div>
+    </div>
+        
+   
+    
+    
+    <div class="swiper-slide"><div class="col-md-2 phone1" style="border: 1px; width:213px; height:415px; position: relative; padding:0%;">
+        <div class="col-md-1 phonenet" style="border: 2px; width: 160px; height: 250px; background-color: none; position: absolute; z-index: 2; left:57px; padding: 0%;">
+            <img src="../New folder/slide-img-5.png" style="width: 140px; height:240px; margin-left: 17px; border-radius: 11%; margin-top: 3px;">
+        </div> 
+        
+        <div class="col-md-2 boxinside" style="border: black; width:213px; height:209px; border-radius: 15px; z-index:1; background-color:#f4fcfa; bottom:0px; position: absolute;"><br>
+
+             <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><img src="../New folder/money.png" style="width:35px;"></div><br><br><br>
+             <div class="col-md-12" style="border:0px solid black; height: 29px; padding-left: 0%; margin-top: 11px;"><h5 class="opted1" style="text-indent: px; margin-top: 9px; text-align: left; margin: -0px; font-size: 12.977px; line-height: 1.; color:#210f60;"><b>Owealth with amazing daily interest<b></h5></div><br>
+             <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><p class="opted1" style="font-size: 8.879px; text-align: left; word-wrap: wrap; font-family: roboto; color: #1DcF9F;">Owealth use as balance width amazing daily interest</p></div>
+
+        </div>
+    </div>
+
+    <div class="col-md-2 phone1" style="border: 1px; width:213px; height:415px; position: relative; padding:0%;">
+        <div class="col-md-1 phonenet" style="border: 2px; width: 160px; height: 250px; background-color: none; position: absolute; z-index: 2; left:57px; padding: 0%;">
+            <img src="../New folder/slide-img-3.png" style="width: 140px; height:240px; margin-left: 17px; border-radius: 11%; margin-top: 3px;">
+        </div>
+        
+        
+        <div class="col-md-2 boxinside" style="border:  black; width:213px; height:209px; border-radius: 15px; z-index:1; background-color:#f4fcfa; bottom:0px; position: absolute;"><br>
+
+          <div class="col-md-12" style="border:0px solid black; height: 31px; padding: 0%;"><img class="headset" src="../New folder/call-center-worker-with-headset.png" style="width: 30px;"></div><br><br><br>
+          <div class="col-md-12" style="border:0px solid black; height: 29px; padding-left: 0%;">
+            <h5  class="opted1" style="text-indent: -15px; font-size: 12.977px; color:#210f60;"><b>Quick Customer Service<b></h5></div><br>
+          <div class="col-md-12" style="border:0px solid black; width: 186px; height: 31px; padding: 0%;"><p class="opted1" style="font-size: 8.879px; text-align: left;  font-family: roboto, sans-serif; color: #1DcF9F;">7*24 accessible and quick resolution via online and physical customer service channels</p></div>
+     
+        </div>
+        </div></div>  
+    </div>
+    
+   
+   
+   
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!--<div class="swiper-pagination"></div>-->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--<p class="append-buttons">
+    <button class="prepend-2-slides">Prepend 2 Slides</button>
+    <button class="prepend-slide">Prepend Slide</button>
+    <button class="append-slide">Append Slide</button>
+    <button class="append-2-slides">Append 2 Slides</button>
+  </p>-->
+
+
+
+</section>
+ 
+   
+    
+        <div class="container-fluid" style="border:1px  black; height:92px; padding-left: 60px; padding-right: 60px;">
+          <div class="container15">
+                <div class="col-md-12" style="border: 1px black; height: 85px;">
+                <h3 class="service">Our Service</h3>
+                </div>
+           </div>
+        </div>
+
+    
+      
+    <div class="container-fluid" style="border:1px  black; height:531px; background-color: #1Dc99B; padding: 0%;">
+      <div class="container1" style=" padding-left: 50px; padding-right: 50px;">
+        <div class="col-md-12" style="border:5px  black; height: 531px; padding-top:50px;">
+          <div class="row">
+              <div class="col-md-6" style="border:1px  black; height: 423px; padding-left: 0%; padding-right: 50px;">
+                <div class="col-md-12" style="border: 1px  black; height:423px; padding-top: 55px; padding-left: 0%;">
+                  <div class="col-md-12" style="border:1px  black; height: 300px; padding-left: 5%;">
+                    <h1 class="fun">Fun your Account, Make Transfers, Pay Bills</h1><br>
+
+                    <p class="wallet">Live life on your own terms! Add money to<br>
+                      you Opay wallet amd transfer to other bank<br>
+                      account for free. Enjoy bonuses on airtime<br>
+                      & data top-ups and fast bill payments at no<br>
+                      extra charge.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" style="border:1px black; height: 423px; padding-top: 10px; padding-right: 0%;"><img src="../New folder/New folder for edited pics/OurServices11.jpg" style="width: 567px; border-radius: 13px; margin-left: 20px;"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid" style="border: 1px black; height:531px; padding-left: 75px; padding-right: 60px; background-color: #f4fcfa;">
+      <div class="container1" style="border:1px  black; height:531px; padding: 0%; padding-top: 5px;">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6" style="border: 1px  black; height:521px; padding: 0%; padding-top: 50px;">
+              <div class="col-md-12" style="border:1px  black; height:423px; padding: 0%; padding-top: 5px;">
+                <img src="../New folder/OurServices02.jpg" style="width: 580px;">
+              </div>
+            </div>
+            <div class="col-md-6" style="border:1px  black; height:521px;"><br><br><br><br><br>
+              <div class="col-md 12" style="border:1px  black; height: 400px; padding-right: 10px; padding-top: 0%;">
+                <h2 class="opaycard"><b>OPay Debit Cards, <br>Your Passport To The World</b></h2>
+                <p class="getcard">Get your Opay Debit card at select opay Agent<br>
+                  store instantly or apply on the Opay App and <br> 
+                  enjoy 10 free ATM withdrawals monthly and <br>
+                  Zero card maintenance fees. The OPay debit <br>
+                  card is accepted at any ATM or POS or web.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid" style="border:1px black; height:531px; background-color: #1Dc99B;">
+      <div class="container7" style="border:1px  black; height: 531px; padding-left: 50px;">
+        <div class="col-md-12">
+          <div class="row">
+            
+            <div class="col-md-6" style="border:1px  black; height: 521px; padding-top: 132.500px; padding-left: 0%;">
+              <div class="col-md-12" style="border: 1px black; height: 55px; padding: 0%;"><h1 class="Owealth">Owealth</h1></div><br>
+                  <div class="col-md-12" style="border:1px black; height:166px; margin-top: 30px; padding: 0%; margin: 16px 0px 0px;">
+                      <p class="interest">With Owealth, you can amazing interest<br>
+                        on your funds while having full aceess and<br>
+                        control the money. Make transactions at any<br>
+                        time without affecting you interest!<br>
+                        Powered by Blueridge Microfinance Bank
+                      </p>
+                  </div>
+            </div>
+                      <div class="col-md-6" style="border: 1px black; height: 420px; padding: 0%; padding-top: 66px;">
+                        <img src="../New folder/OurServices03.jpg" style="width: 567px; border-radius: 13px;"></div>
+                    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid" style="border: 1px black; height: 514px; padding-top: 50px; padding-bottom: 50px; background-color: #EDEDED;">
+      <div class="container" style="border: 1px black; height: 404px; padding-top:3px; padding-right: 0%;">
+        <div class="row">
+                <div class="col-md-7" style=" border:1px black; height: 386px;"></div>
+                
+                <div class="col-md-5" style=" border:1px black; height: 389px; padding: 0%;"> 
+                    <div class="col-md-12" style="border: 1px  black; height: 316px; padding-left: 30px; padding-right: 0%;">
+                        <div class="qrcode" style="border: 1px black; width: 138px; height: 131px; border-radius: 20px; padding: 10px; box-shadow:1px 1px 25px -7px grey; background-color: #ffffff;">
+                          <img src="../New folder/qrcode555.jpeg" style="width: 110px; margin-left: 5px;">
+                        </div><br><br><br>
+
+                        <div class="col-md-12" style="border: 1px black; height: 128px; padding-;">
+                            <p class="downloadopay">Use your phones camera to scan
+                              and download the OPay app
+                              available on <span style="color: #1DcF9F; font-weight:700;"> iOS </span> and <span style="color: #1DcF9F; font-weight: 700;">Andriod</span>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12" style="border:1px black; height: 68px; margin-top: 2px; padding-top: 18px;">
+                      <div class="row">
+                        <div class="col-md-4" style="border: 1px black; height: 50px; padding-left: 27px;">
+                          <a href="#"><img src="../New folder/google34.png" style="border-radius: 10px; width: 84px; height: 27px;"></a>
+                        </div>
+                       
+                       
+                        <div class="col-md-8" style="border: 1px black; height: 50px; padding-left: 0%;">
+                          <a href="#"><img src="../New folder/download28.png" style="border-radius: 10px; width: 84px; height: 27px;"></a>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    
+    
+    <div class="container-fluid" style="border: 1px black; height:614px; padding: 0px 0px 0px 0px;">
+      <div class="containerm" style="border:1px  black; height: 612px; padding: 0%;"><br><br>
+        <div class="col-md-12" style="border:1px black; height: 71px; padding-left: 60px;">
+          <h1 class="customerthink">Here is what our customers think</h1>
+        </div>
+        
+        <div class="col-md-12" style="border:1px black; height: 450px; margin-top: 50px; padding: 0%;">
+
+          <div #swiperRef="" class="swiper mySwiper" style="position: relative; bottom: 35px;">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> 
+                <div class="opayvideo1" style="border: 1px black; width: 291px; height: 408px;">
+                <div class="opayv1" style="border:1px  black; width: 300px; height: 291px; border-radius: 10px;">
+                  <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9"  style="width: 120%; height:100%; bottom: 15%; border-radius: 10px;">
+                    <video class="embed-responsive-item" controls autoplay loop>
+                      <source src="../New folder/_01MrMalik.mp4" type="video/mp4">
+                      <source src="../New folder/_01MrMalik.mp4" type="video/ogg/">
+                    </video>
+                    </div>
+                </div>
+                  <div class="opyw" style="border: 1px black; width: 291px; height: 60px; padding-left: 0%;">
+                      <h5 class="opaybk">OPay make banking very easy for me:
+                        transfer of funds and transactions are
+                        seamless; I give OPay a solid 10/10.
+                      </h5>
+                    </div><br>
+                
+                    <div class="opaysm" style="border:1px  black; width: 291px; height: 20px; margin-top: 10px;">
+                      <h6 class="opaycus2">.Mr. Malik(Customer)</h6>
+                    </div>
+              </div></div>
+              
+              <div class="swiper-slide">      
+                <div class="opayvideo1" style="border: 1px black; width: 291px; height: 408px;">
+                   <div class="opayv1" style="border:1px  black; width: 291px; height: 291px;">
+                      <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9" style="width: 120%; height:100%; position:relative; bottom: 15%; border-radius: 10px;">
+                          <video class="embed-responsive-item" controls autoplay loop>
+                            <source src="../New folder/02MrsBenson (3).mp4" type="video/mp4">
+                            <source src="../New folder/02MrsBenson (3).mp4" type="video/ogg/">
+                          </video>
+                      </div> 
+                   </div>
+                       <div class="opyw" style="border: 1px  black; width: 291px; height: 60px;">
+                         <h5 class="opaybk">i love OPay the network is very good..up
+                          to 100% network uptime and super fast &
+                          customer service is very quick, fast and 
+                          efficient, complaints are resolve quick
+                         </h5>
+                       </div><br>
+                   
+                       <div class="opaysm" style="border:1px black; width: 291px; height: 20px; margin-top: 10px;">
+                         <h6 class="opaycus2">.Mrs Benson(Agent)</h6>
+                       </div>
+                 </div></div>
+              <div class="swiper-slide">      
+                <div class="opayvideo1" style="border: 1px   black; width: 291px; height: 408px;">
+                   <div class="opayv1" style="border:1px black; width: 291px; height: 291px;">
+                      <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9" style="width: 120%; height:100%; position:relative; bottom: 15%; border-radius: 10px;">
+                        <video class="embed-responsive-item" controls autoplay loop>
+                          <source src="../New folder/_03MummyHabeeb.mp4" type="video/mp4">
+                          <source src="../New folder/_03MummyHabeeb.mp4" type="video/ogg/">
+                        </video>
+                    </div> 
+                   </div>
+                       <div class="opyw" style="border: 1px black; width: 291px; height: 60px;">
+                         <h5 class="opaybk">OPay has been giving me joy since 2020!<br>
+                           ah!, within one to two second, you will<br>
+                           surely see the money transferred to you!
+                         </h5>
+                       </div><br>
+                   
+                       <div class="opaysm" style="border:1px  black; width: 291px; height: 20px; margin-top: 10px;">
+                         <h6 class="opaycus2">Mummy Habeeb(Agent)</h6>
+                       </div>
+                 </div></div>
+              
+              <div class="swiper-slide">      
+                  <div class="opayvideo1" style="border: 1px black; width: 291px; height: 408px;">
+                   <div class="opayv1" style="border:1px black; width: 291px; height: 291px;">
+                    <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9" style="width: 120%; height:100%; position:relative; bottom: 15%; border-radius: 10px;">
+                      <video class="embed-responsive-item" controls autoplay loop>
+                        <source src="../New folder/04MrQudusAdebayo.mp4" type="video/mp4">
+                        <source src="../New folder/04MrQudusAdebayo.mp4" type="video/ogg/">
+                      </video>
+                  </div> 
+                   </div>
+                       <div class="opyw" style="border: 1px black; width: 291px; height: 60px;">
+                         <h5 class="opaybk">I feel very satified with OPay's service, I've 
+                            been using OPay for over 4 years and will 
+                            definite recommend OPay to my family & friends
+                         </h5>
+                       </div><br>
+                   
+                       <div class="opaysm" style="border:1px black; width: 291px; height: 20px; margin-top: 10px;">
+                         <h6 class="opaycus2">.Mr. Adebayo(Customer)</h6>
+                       </div>
+                 </div></div>
+              <div class="swiper-slide">      
+                <div class="opayvideo1" style="border: 1px  black; width: 291px; height: 408px;">
+                   <div class="opayv1" style="border:1px solid black; width: 291px; height: 291px;">
+                    
+                      <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9" style="width: 120%; height:100%; position:relative; bottom: 15%; border-radius: 10px;">
+                        <video class="embed-responsive-item" controls autoplay loop>
+                          <source src="../New folder/05MrOGBONNA.mp4" type="video/mp4">
+                          <source src="../New folder/05MrOGBONNA.mp4" type="video/ogg/">
+                        </video>
+                    </div> 
+
+                   </div>
+                       <div class="opyw" style="border: 1px  black; width: 291px; height: 60px;">
+                         <h5 class="opaybk">To be sincere i am happy with OPay, my
+                          money has never hang before..All my
+                          doubts and the rumors heard about OPay
+                          being not secure, are cleared now!
+                         </h5>
+                       </div><br>
+                   
+                       <div class="opaysm" style="border:1px  black; width: 291px; height: 20px; margin-top: 10px;">
+                         <h6 class="opaycus2">.Mr Ogbonna(Farmer/Business)</h6>
+                       </div>
+                 </div></div>
+              <div class="swiper-slide">      
+                <div class="opayvideo1" style="border: 1px  black; width: 291px; height: 408px;">
+                   <div class="opayv1" style="border:1px  black; width: 291px; height: 291px;">
+
+                    <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-16by9" style="width: 120%; height:100%; position:relative; bottom: 15%; border-radius: 10px;">
+                      <video class="embed-responsive-item" controls autoplay loop>
+                        <source src="../New folder/06MrOyebadejo.mp4" type="video/mp4">
+                        <source src="../New folder/06MrOyebadejo.mp4" type="video/ogg/">
+                      </video>
+                  </div> 
+
+                   </div>
+                       <div class="opyw" style="border: 1px black; width: 291px; height: 60px;">
+                         <h5 class="opaybk">I wrongly sent money to an account, but
+                           OPay resolve the issue for me in 15 to 30
+                           minutes, i am very happy & comfortable
+                           that the issue was addressed so swiftly!
+                         </h5>
+                       </div><br>
+                   
+                       <div class="opaysm" style="border:1px  black; width: 291px; height: 20px; margin-top: 10px;">
+                         <h6 class="opaycus2">.Mr Oyebadejo(Customer)</h6>
+                       </div>
+                 </div></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!--<div class="swiper-pagination"></div>-->
+          </div>
+        
+          <!--<p class="append-buttons">
+            <button class="prepend-2-slides">Prepend 2 Slides</button>
+            <button class="prepend-slide">Prepend Slide</button>
+            <button class="append-slide">Append Slide</button>
+            <button class="append-2-slides">Append 2 Slides</button>
+          </p>-->
+        
+
+
+        </div>
+      </div>
+    </div><br><br>
+        
+        
+        
+   <div class="container-fluid" style="border:px  black; height: 641px; padding:60px 0px 50px 0px; background-color: #1Dc99B;"><br>
+    <div class="containerm" style="border:1px black; height: 506px; padding:0px 60px 0px 60px;">
+      <div class="row">
+        <div class="col-md-6" style="border:5px black; height: 506px;">
+          <div class="col-md-12" style="border:1px  black; height: 487px;">
+            <div class="col-md-12" style="border:1px black; height: 234px; padding: 0%; border-radius: 20px;">
+              <img src="../New folder/security-banner-1.png" style="width:545px; height: 232px; border-radius: 20px;">
+            </div>
+            <div class="col-md-12" style="border:1px  black; height: 234px; margin-top: 17px; border-radius: 20px; padding:0%;">
+              <img src="../New folder/security-banner-2.png" style="width:545px; height: 232px; border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="border:5px black; height: 506px; padding-left: 50px;"><br>
+          
+          <h1 class="security">Your security and privacy</h1>
+          <h1 class="security">is our priority</h1>
+          
+          <h3 class="detection">Advance Fraud Detection</h3>
+          <h5 class="safe">Your data is stored and encrypted using strong crytography. We scan</h5>
+           <h5 class="safe"> our systems daily against security thread
+          </h5>
+          
+          <h3 class="detection">Security product safe transactions</h3>
+          <h5 class="safe">We are compliant with PCI DSS. Your transactions are always encrypted</h5>
+           <h5 class="safe">and secure</h5>
+          
+
+          <h3 class="detection">Security Product</h3>
+          <h5 class="safe">Quick dial *955*131# or *955*132# to lock account or card if stolen or </h5>
+          <h5 class="safe">misplace</h5>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+
+   <div class="container-fluid" style="border:1px solid black; height: 566px; padding: 0%; padding: 65px 0px 0px 0px;">
+    <div class="container" style="border:5px solid black; height: 437px; padding: ">
+      <div class="row">
+        <div class="col-md-6" style="border: 5px solid red; height: 437px; padding: 0%;">
+          <div class="col-md-11" style="border:1px solid black; height: 374px; padding: 0%;">
+            <h1 class="security12">Customer Satisfaction, Our priority</h1>
+            <p class="provide">We are here for you to provide 7*24 quick customer<br>
+              service, visit our in-app customer service center or<br>
+              physical customer service center or send us message<br>
+              via official social medias or call us via  hotline as<br>
+              below
+            </p>
+
+            <p class="numbers" style="text-indent: 0px;"><img src="../New folder/phone-call.png" style="width: 10px; margin-right: 10px;">0700 8888 328 OR 18888 328(App & Card queries)</p>
+             <p class="numbers" style="margin: -13px; text-indent: 32px;">0700 8888 329 OR 18888 329(POS Business queries)</p>
+          </div>
+        </div>
+        <div class="col-md-6" style="border: 1px solid black; height: 437px; padding-right: 0%;">
+          <div class="col-md-12" style="border:1px solid red; height: 200px; padding: 0%;">
+            <video src="../New folder/_01CustomerService-People_4 (1).mp4" controls width="568px" height="200"></video>
+          </div>
+          <div class="col-md-12" style="border:1px solid red; height: 200px;"></div>
+        </div>
+      </div>
+    </div>
+   </div>
+      
+
+
+
+   
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  
+      var appendNumber = 4;
+      var prependNumber = 1;
+      document
+        .querySelector(".prepend-2-slides")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.prependSlide([
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          ]);
+        });
+      document
+        .querySelector(".prepend-slide")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.prependSlide(
+            '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+          );
+        });
+      document
+        .querySelector(".append-slide")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.appendSlide(
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+          );
+        });
+      document
+        .querySelector(".append-2-slides")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.appendSlide([
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+            '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          ]);
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+     
+   
+ 
+
+
+
+       <!----<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->     
+       
+       <script>
+       var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document
+      .querySelector(".prepend-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document
+      .querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
+        
+                </script>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+         </script>
+            
+    </body>
+    </html>
+    
+
